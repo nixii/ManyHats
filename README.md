@@ -1,5 +1,7 @@
 # ManyHats
 
+![Example of swapping hats](https://github.com/nixii/ManyHats/blob/main/example0.gif)
+
 ## About
 This is a simple plugin that lets you put any item on yur head as a hat.
 In Survival mode, you can simply click with the item on your helmet slot like you would to put on a helmet.
