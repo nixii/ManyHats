@@ -36,11 +36,9 @@ public final class ManyHats extends JavaPlugin implements Listener, CommandExecu
     @EventHandler(priority = EventPriority.HIGHEST)
     public void onInventoryClick(InventoryClickEvent e) {
         if (!(e.getWhoClicked() instanceof Player p)) return;
-        getLogger().info("mguweghfiuw");
+        if (!(e.getWhoClicked().hasPermission("manyhats.hat"))) return;
         if (e.getCursor().isEmpty()) return;
-        getLogger().info("mguweghfiuw");
-        if (e.getRawSlot() != 5) return; // helmet
-        getLogger().info("mguweghfiuw");
+        if (e.getRawSlot() != 5) return; // helmet slot
         e.setCancelled(true);
 
         ItemStack cursor = e.getCursor();
