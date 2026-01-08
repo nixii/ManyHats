@@ -3,6 +3,8 @@ version: '${project.version}'
 main: dev.nixii.manyhats.ManyHats
 api-version: '1.21'
 
+depend: [ManPage]
+
 commands:
   hat:
     description: Swap your helmet and held item.
